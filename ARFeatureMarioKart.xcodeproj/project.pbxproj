@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		819066AE29F0264B006C070E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819066AD29F0264B006C070E /* AppDelegate.swift */; };
+		819066B029F0264B006C070E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819066AF29F0264B006C070E /* ContentView.swift */; };
+		819066B229F0264B006C070E /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 819066B129F0264B006C070E /* Experience.rcproject */; };
+		819066B429F0264D006C070E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819066B329F0264D006C070E /* Assets.xcassets */; };
+		819066B729F0264D006C070E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819066B629F0264D006C070E /* Preview Assets.xcassets */; };
+		819066C129F0264D006C070E /* ARFeatureMarioKartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819066C029F0264D006C070E /* ARFeatureMarioKartTests.swift */; };
+		819066CB29F0264D006C070E /* ARFeatureMarioKartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819066CA29F0264D006C070E /* ARFeatureMarioKartUITests.swift */; };
+		819066CD29F0264D006C070E /* ARFeatureMarioKartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819066CC29F0264D006C070E /* ARFeatureMarioKartUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		819066BD29F0264D006C070E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 819066A229F0264B006C070E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 819066A929F0264B006C070E;
+			remoteInfo = ARFeatureMarioKart;
+		};
+		819066C729F0264D006C070E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 819066A229F0264B006C070E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 819066A929F0264B006C070E;
+			remoteInfo = ARFeatureMarioKart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		819066AA29F0264B006C070E /* ARFeatureMarioKart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARFeatureMarioKart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		819066AD29F0264B006C070E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		819066AF29F0264B006C070E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		819066B129F0264B006C070E /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		819066B329F0264D006C070E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		819066B629F0264D006C070E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		819066BC29F0264D006C070E /* ARFeatureMarioKartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFeatureMarioKartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		819066C029F0264D006C070E /* ARFeatureMarioKartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFeatureMarioKartTests.swift; sourceTree = "<group>"; };
+		819066C629F0264D006C070E /* ARFeatureMarioKartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFeatureMarioKartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		819066CA29F0264D006C070E /* ARFeatureMarioKartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFeatureMarioKartUITests.swift; sourceTree = "<group>"; };
+		819066CC29F0264D006C070E /* ARFeatureMarioKartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFeatureMarioKartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		819066A729F0264B006C070E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819066B929F0264D006C070E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819066C329F0264D006C070E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		819066A129F0264B006C070E = {
+			isa = PBXGroup;
+			children = (
+				819066AC29F0264B006C070E /* ARFeatureMarioKart */,
+				819066BF29F0264D006C070E /* ARFeatureMarioKartTests */,
+				819066C929F0264D006C070E /* ARFeatureMarioKartUITests */,
+				819066AB29F0264B006C070E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		819066AB29F0264B006C070E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				819066AA29F0264B006C070E /* ARFeatureMarioKart.app */,
+				819066BC29F0264D006C070E /* ARFeatureMarioKartTests.xctest */,
+				819066C629F0264D006C070E /* ARFeatureMarioKartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		819066AC29F0264B006C070E /* ARFeatureMarioKart */ = {
+			isa = PBXGroup;
+			children = (
+				819066AD29F0264B006C070E /* AppDelegate.swift */,
+				819066AF29F0264B006C070E /* ContentView.swift */,
+				819066B129F0264B006C070E /* Experience.rcproject */,
+				819066B329F0264D006C070E /* Assets.xcassets */,
+				819066B529F0264D006C070E /* Preview Content */,
+			);
+			path = ARFeatureMarioKart;
+			sourceTree = "<group>";
+		};
+		819066B529F0264D006C070E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				819066B629F0264D006C070E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		819066BF29F0264D006C070E /* ARFeatureMarioKartTests */ = {
+			isa = PBXGroup;
+			children = (
+				819066C029F0264D006C070E /* ARFeatureMarioKartTests.swift */,
+			);
+			path = ARFeatureMarioKartTests;
+			sourceTree = "<group>";
+		};
+		819066C929F0264D006C070E /* ARFeatureMarioKartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				819066CA29F0264D006C070E /* ARFeatureMarioKartUITests.swift */,
+				819066CC29F0264D006C070E /* ARFeatureMarioKartUITestsLaunchTests.swift */,
+			);
+			path = ARFeatureMarioKartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		819066A929F0264B006C070E /* ARFeatureMarioKart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 819066D029F0264D006C070E /* Build configuration list for PBXNativeTarget "ARFeatureMarioKart" */;
+			buildPhases = (
+				819066A629F0264B006C070E /* Sources */,
+				819066A729F0264B006C070E /* Frameworks */,
+				819066A829F0264B006C070E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARFeatureMarioKart;
+			productName = ARFeatureMarioKart;
+			productReference = 819066AA29F0264B006C070E /* ARFeatureMarioKart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		819066BB29F0264D006C070E /* ARFeatureMarioKartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 819066D329F0264D006C070E /* Build configuration list for PBXNativeTarget "ARFeatureMarioKartTests" */;
+			buildPhases = (
+				819066B829F0264D006C070E /* Sources */,
+				819066B929F0264D006C070E /* Frameworks */,
+				819066BA29F0264D006C070E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				819066BE29F0264D006C070E /* PBXTargetDependency */,
+			);
+			name = ARFeatureMarioKartTests;
+			productName = ARFeatureMarioKartTests;
+			productReference = 819066BC29F0264D006C070E /* ARFeatureMarioKartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		819066C529F0264D006C070E /* ARFeatureMarioKartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 819066D629F0264D006C070E /* Build configuration list for PBXNativeTarget "ARFeatureMarioKartUITests" */;
+			buildPhases = (
+				819066C229F0264D006C070E /* Sources */,
+				819066C329F0264D006C070E /* Frameworks */,
+				819066C429F0264D006C070E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				819066C829F0264D006C070E /* PBXTargetDependency */,
+			);
+			name = ARFeatureMarioKartUITests;
+			productName = ARFeatureMarioKartUITests;
+			productReference = 819066C629F0264D006C070E /* ARFeatureMarioKartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		819066A229F0264B006C070E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					819066A929F0264B006C070E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					819066BB29F0264D006C070E = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 819066A929F0264B006C070E;
+					};
+					819066C529F0264D006C070E = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 819066A929F0264B006C070E;
+					};
+				};
+			};
+			buildConfigurationList = 819066A529F0264B006C070E /* Build configuration list for PBXProject "ARFeatureMarioKart" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 819066A129F0264B006C070E;
+			productRefGroup = 819066AB29F0264B006C070E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				819066A929F0264B006C070E /* ARFeatureMarioKart */,
+				819066BB29F0264D006C070E /* ARFeatureMarioKartTests */,
+				819066C529F0264D006C070E /* ARFeatureMarioKartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		819066A829F0264B006C070E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819066B729F0264D006C070E /* Preview Assets.xcassets in Resources */,
+				819066B429F0264D006C070E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819066BA29F0264D006C070E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819066C429F0264D006C070E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		819066A629F0264B006C070E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819066B029F0264B006C070E /* ContentView.swift in Sources */,
+				819066AE29F0264B006C070E /* AppDelegate.swift in Sources */,
+				819066B229F0264B006C070E /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819066B829F0264D006C070E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819066C129F0264D006C070E /* ARFeatureMarioKartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819066C229F0264D006C070E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819066CB29F0264D006C070E /* ARFeatureMarioKartUITests.swift in Sources */,
+				819066CD29F0264D006C070E /* ARFeatureMarioKartUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		819066BE29F0264D006C070E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 819066A929F0264B006C070E /* ARFeatureMarioKart */;
+			targetProxy = 819066BD29F0264D006C070E /* PBXContainerItemProxy */;
+		};
+		819066C829F0264D006C070E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 819066A929F0264B006C070E /* ARFeatureMarioKart */;
+			targetProxy = 819066C729F0264D006C070E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		819066CE29F0264D006C070E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		819066CF29F0264D006C070E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		819066D129F0264D006C070E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARFeatureMarioKart/Preview Content\"";
+				DEVELOPMENT_TEAM = 5DC9DV33K3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucabulless.ASM.ARFeatureMarioKart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		819066D229F0264D006C070E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARFeatureMarioKart/Preview Content\"";
+				DEVELOPMENT_TEAM = 5DC9DV33K3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucabulless.ASM.ARFeatureMarioKart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		819066D429F0264D006C070E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DC9DV33K3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucabulless.ASM.ARFeatureMarioKartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARFeatureMarioKart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARFeatureMarioKart";
+			};
+			name = Debug;
+		};
+		819066D529F0264D006C070E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DC9DV33K3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucabulless.ASM.ARFeatureMarioKartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARFeatureMarioKart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARFeatureMarioKart";
+			};
+			name = Release;
+		};
+		819066D729F0264D006C070E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DC9DV33K3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucabulless.ASM.ARFeatureMarioKartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARFeatureMarioKart;
+			};
+			name = Debug;
+		};
+		819066D829F0264D006C070E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DC9DV33K3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucabulless.ASM.ARFeatureMarioKartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARFeatureMarioKart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		819066A529F0264B006C070E /* Build configuration list for PBXProject "ARFeatureMarioKart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819066CE29F0264D006C070E /* Debug */,
+				819066CF29F0264D006C070E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		819066D029F0264D006C070E /* Build configuration list for PBXNativeTarget "ARFeatureMarioKart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819066D129F0264D006C070E /* Debug */,
+				819066D229F0264D006C070E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		819066D329F0264D006C070E /* Build configuration list for PBXNativeTarget "ARFeatureMarioKartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819066D429F0264D006C070E /* Debug */,
+				819066D529F0264D006C070E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		819066D629F0264D006C070E /* Build configuration list for PBXNativeTarget "ARFeatureMarioKartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819066D729F0264D006C070E /* Debug */,
+				819066D829F0264D006C070E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 819066A229F0264B006C070E /* Project object */;
+}
