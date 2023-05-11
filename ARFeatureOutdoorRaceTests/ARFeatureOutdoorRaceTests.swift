@@ -1,14 +1,14 @@
 //
-//  ARFeatureMarioKartTests.swift
-//  ARFeatureMarioKartTests
+//  ARFeatureOutdoorRaceTests.swift
+//  ARFeatureOutdoorRaceTests
 //
-//  Created by Luca Bulles on 19/04/2023.
+//  Created by Luca Bulles on 11/05/2023.
 //
 
 import XCTest
-@testable import ARFeatureMarioKart
+@testable import ARFeatureOutdoorRace
 
-final class ARFeatureMarioKartTests: XCTestCase {
+final class ARFeatureOutdoorRaceTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

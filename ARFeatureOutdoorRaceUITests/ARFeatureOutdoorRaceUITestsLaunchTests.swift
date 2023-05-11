@@ -1,13 +1,13 @@
 //
-//  ARFeatureMarioKartUITestsLaunchTests.swift
-//  ARFeatureMarioKartUITests
+//  ARFeatureOutdoorRaceUITestsLaunchTests.swift
+//  ARFeatureOutdoorRaceUITests
 //
-//  Created by Luca Bulles on 19/04/2023.
+//  Created by Luca Bulles on 11/05/2023.
 //
 
 import XCTest
 
-final class ARFeatureMarioKartUITestsLaunchTests: XCTestCase {
+final class ARFeatureOutdoorRaceUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

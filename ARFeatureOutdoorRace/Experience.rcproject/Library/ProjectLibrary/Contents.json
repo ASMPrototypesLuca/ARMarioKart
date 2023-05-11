@@ -3,5 +3,10 @@
     "libraryIdentifier" : "f604b963ddedc563c23086e282a83df9",
     "format" : "audio",
     "displayName" : "mario_coin_sound.mp3"
+  },
+  {
+    "libraryIdentifier" : "e441304c56cf8749dccad3efb20051fa",
+    "format" : "audio",
+    "displayName" : "CSEDYB5-coin.mp3"
   }
 ]
