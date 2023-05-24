@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ARFeatureOutdoorRace
+//  ARFeatureMarioKart
 //
-//  Created by Luca Bulles on 11/05/2023.
+//  Created by Luca Bulles on 19/04/2023.
 //
 
 import UIKit
