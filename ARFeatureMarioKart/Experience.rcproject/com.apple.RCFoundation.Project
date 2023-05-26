@@ -832,9 +832,9 @@
                   1.4435501682896756e-08,
                   -0.31081077456474304,
                   0,
-                  -0.075326345860958099,
-                  0.97018760442733765,
-                  0.23035115003585815,
+                  -0.075326353311538696,
+                  0.9701877236366272,
+                  0.23035117983818054,
                   0,
                   0.30154472589492798,
                   0.24235428869724274,
@@ -922,6 +922,45 @@
                             }
                           ],
                           "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "none",
+                                          "distance" : 1,
+                                          "duration" : 1,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "7A3A3402-AC65-4D83-9322-770131079379"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "hide"
+                                        }
+                                      },
+                                      "identifier" : "12CA8D4A-7E93-4B58-9BA3-956CF3D4D5A1",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "965D11B9-4FE1-4F85-BA06-72BC72AFBC2B",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
                         }
                       ],
                       "color" : [
@@ -981,31 +1020,27 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "angularCoefficient" : 1,
-                                          "animationStyle" : "basic",
-                                          "buildOutAnimationType" : "none",
-                                          "distance" : 1,
-                                          "duration" : 1,
-                                          "fadeOut" : true,
-                                          "linearCoefficient" : 1,
-                                          "moveEase" : "easeInOut",
-                                          "respectPhysics" : false,
+                                          "audioType" : "play",
+                                          "filePath" : "audio:236c9b1cdcb045a6cb9f4f62c2ce5fc2\/short-success-sound-glockenspiel-treasure-video-game-6346.mp3",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
                                           "target" : [
-                                            "7A3A3402-AC65-4D83-9322-770131079379"
-                                          ]
+                                            "31186FB6-384D-456B-957C-2507E5C41048"
+                                          ],
+                                          "volume" : 0.5
                                         },
                                         "name" : {
-                                          "type" : "hide"
+                                          "type" : "audio"
                                         }
                                       },
-                                      "identifier" : "1F67E318-AD18-41F6-922E-257BC01CD110",
+                                      "identifier" : "DC208980-AACC-4515-B7CB-05A316E60530",
                                       "isEnabled" : true
                                     }
                                   ],
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "7072B23D-A9CB-47D3-BE26-5B92463CFC24",
+                              "identifier" : "2B7734E7-7582-4730-926B-D1C6E14A002F",
                               "isEnabled" : true
                             }
                           ],
@@ -1022,29 +1057,57 @@
                                         "configuration" : {
                                           "angularCoefficient" : 1,
                                           "animationStyle" : "basic",
-                                          "buildInAnimationType" : "none",
+                                          "buildOutAnimationType" : "none",
                                           "distance" : 1,
                                           "duration" : 1,
-                                          "fadeIn" : true,
+                                          "fadeOut" : true,
                                           "linearCoefficient" : 1,
                                           "moveEase" : "easeInOut",
                                           "respectPhysics" : false,
                                           "target" : [
-                                            "E0EE1A65-3C47-4096-8F82-E5892A8934D0"
+                                            "31186FB6-384D-456B-957C-2507E5C41048"
                                           ]
                                         },
                                         "name" : {
-                                          "type" : "show"
+                                          "type" : "hide"
                                         }
                                       },
-                                      "identifier" : "C3CD658D-92CF-42BA-AB85-7435CD539844",
+                                      "identifier" : "C0D5F9CA-5F14-404E-BA07-3C1EF6E6075A",
                                       "isEnabled" : true
                                     }
                                   ],
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "A3D68785-20AE-439E-AEFD-FEA677D2B441",
+                              "identifier" : "0A7325C5-F0F2-4FDF-8404-9BBBE2A994BC",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "targetScene" : "16002BF6-3219-4D3E-BA3A-453BC7138F5C"
+                                        },
+                                        "name" : {
+                                          "type" : "changeScene"
+                                        }
+                                      },
+                                      "identifier" : "2DA600FD-F470-4F03-A45E-1831EB67C2E0",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "5A6F58BF-B312-4263-BC4C-A9B117051F87",
                               "isEnabled" : true
                             }
                           ],
@@ -1057,26 +1120,26 @@
                         0.80000001192092896,
                         1
                       ],
-                      "identifier" : "A2E15690-1947-4666-ADBD-C2ECC83F7121",
+                      "identifier" : "FDD102AF-C9CA-46E9-B1BF-895300DAF2CC",
                       "isEnabled" : true,
-                      "isLooping" : true,
+                      "isLooping" : false,
                       "isModal" : false,
-                      "name" : "Change scene",
+                      "name" : "Catch 2nd coin",
                       "triggers" : [
                         {
                           "__content" : [
                             {
                               "configurationBox" : {
                                 "configuration" : {
-                                  "distance" : 0.20430000126361847,
+                                  "distance" : 0.20000000298023224,
                                   "target" : [
-                                    "7A3A3402-AC65-4D83-9322-770131079379"
+                                    "31186FB6-384D-456B-957C-2507E5C41048"
                                   ],
                                   "type" : 0
                                 },
                                 "name" : "proximity"
                               },
-                              "identifier" : "BE8004AB-F5F7-4DD9-9624-16434E6668D2",
+                              "identifier" : "DC1505D7-1540-4C3F-A32C-1E273727ABDF",
                               "isEnabled" : true
                             }
                           ],
@@ -1169,19 +1232,19 @@
                     },
                     "transform" : {
                       "matrix" : [
-                        0.00049470656085759401,
-                        9.9997539520263672,
-                        -7.003376231295988e-05,
+                        0.00067231786670163274,
+                        9.9996614456176758,
+                        -9.5066228823270649e-05,
                         0,
-                        -0.00014871032908558846,
-                        7.3312105087097734e-05,
-                        9.9997777938842773,
+                        -0.00018923904281109571,
+                        9.8344702564645559e-05,
+                        9.9996957778930664,
                         0,
-                        9.9997549057006836,
-                        -0.00049172644503414631,
-                        0.00015198817709460855,
+                        9.9996623992919922,
+                        -0.00066933780908584595,
+                        0.00019251657067798078,
                         0,
-                        0.69843417406082153,
+                        2.9562041759490967,
                         1.3740087747573853,
                         1.4420865774154663,
                         1
@@ -1195,6 +1258,193 @@
                   "7F5F1ADC-E5E4-4EF5-A5B5-FC43B071FFA5" : null,
                   "0144FB2B-7129-4BF7-B9EF-EE1C985C0D11" : null,
                   "632E476F-1E55-4E30-9723-1C51DD2E8B89" : null,
+                  "703F31A9-1DAD-4F6C-BEB2-9D9E23AD1255" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Silver Coin"
+                          }
+                        ],
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "gold"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Iconic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "iconicItem" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "63B73178-BE5A-46AB-9054-3A6F5778EF13"
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "2F1E8BB4-654D-41F7-8F56-B110197BD736"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.SilverCoin.b33598e1-e3b9-4cce-a4d0-c60ff9e15593",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "31186FB6-384D-456B-957C-2507E5C41048"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.0017248118529096246,
+                        9.9991512298583984,
+                        -0.00022647839796263725,
+                        0,
+                        -0.0004899124032817781,
+                        0.00022528816771227866,
+                        9.9992294311523438,
+                        0,
+                        9.9991550445556641,
+                        -0.0017260045278817415,
+                        0.00048871675971895456,
+                        0,
+                        2.5830807685852051,
+                        1.2118954658508301,
+                        2.873384952545166,
+                        1
+                      ]
+                    }
+                  },
+                  "1702FAAA-28C9-479A-8DD9-FD8EA37078BA" : null,
+                  "476355D0-3743-4B1A-AD08-A5D28A60ED79" : null,
+                  "A35F7D76-D6AC-44C2-A689-78450A9A9D0C" : null,
+                  "AB15F7A1-D8A0-4F91-987E-12D49F0996D7" : null,
+                  "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null,
+                  "C1D09D1E-CBC3-47C8-BC18-784C4B5AE8A8" : null,
+                  "C3846FDD-A282-4CCD-962B-A37D6252C386" : null,
+                  "D1726FF8-221F-44F2-B88A-168B2D7D9515" : null,
+                  "E3530D44-C27F-439F-ABEA-ECBBBF0EF575" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "Box 1",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  -0.99965029954910278,
+                  -1.0430818520035245e-07,
+                  0.026442352682352066,
+                  0,
+                  0.0070991870015859604,
+                  0.96328455209732056,
+                  0.26838847994804382,
+                  0,
+                  -0.025471676141023636,
+                  0.26848256587982178,
+                  -0.96294766664505005,
+                  0,
+                  2.4265451431274414,
+                  1.8626519441604614,
+                  -0.66521549224853516,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "identifier" : "16002BF6-3219-4D3E-BA3A-453BC7138F5C",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "1BE2D40B-7938-498B-8A7F-525022145472" : null,
+                  "1CCA208D-D54A-4310-A385-878A6B527C2D" : null,
+                  "4A213441-135C-450E-8EF8-1A4EAB267C1D" : null,
+                  "4F1A9FA9-C909-48CC-A154-8D9636F112CA" : null,
+                  "5E71B9B8-CC17-4034-B55B-317523FCDBB9" : null,
+                  "5FC0DE3B-665E-4AB0-9C4C-A8CE957F729D" : null,
+                  "6B8F1C18-42BD-45EE-89CE-3B5193F7963B" : null,
+                  "7F5F1ADC-E5E4-4EF5-A5B5-FC43B071FFA5" : null,
+                  "9EB7B617-62D4-43C1-884C-057EF3C88349" : null,
+                  "73DBCDB8-E5DE-450E-9DC0-5F79ACB08297" : null,
+                  "0144FB2B-7129-4BF7-B9EF-EE1C985C0D11" : null,
+                  "632E476F-1E55-4E30-9723-1C51DD2E8B89" : null,
+                  "783AFA46-4355-4331-A21C-A109CD6453B9" : null,
                   "1702FAAA-28C9-479A-8DD9-FD8EA37078BA" : null,
                   "476355D0-3743-4B1A-AD08-A5D28A60ED79" : null,
                   "A35F7D76-D6AC-44C2-A689-78450A9A9D0C" : {
@@ -1239,7 +1489,7 @@
                           "height",
                           {
                             "typeName" : "Double",
-                            "value" : 0.10000000000000001
+                            "value" : 0.35000000000000003
                           }
                         ],
                         [
@@ -1320,28 +1570,28 @@
                           "RuntimeIdentifier",
                           {
                             "typeName" : "UUID",
-                            "value" : "E0EE1A65-3C47-4096-8F82-E5892A8934D0"
+                            "value" : "AC8F58C0-4323-40A9-9019-42241655F7AA"
                           }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        -1,
+                        -1.9319472312927246,
+                        2.917159065418673e-07,
+                        -1.688961788204324e-07,
                         0,
-                        -1.5099573147381307e-07,
+                        2.916528103469318e-07,
+                        1.931917667388916,
+                        0.00067047157790511847,
                         0,
+                        1.6899420529625786e-07,
+                        0.0006704691331833601,
+                        -1.9319107532501221,
                         0,
-                        1,
-                        0,
-                        0,
-                        1.5099573147381307e-07,
-                        0,
-                        -1,
-                        0,
-                        0.6810142993927002,
-                        1.6219643354415894,
-                        1.3078227043151855,
+                        -0.27951684594154358,
+                        1.8201007843017578,
+                        7.788355827331543,
                         1
                       ]
                     }
@@ -1350,7 +1600,8 @@
                   "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null,
                   "C1D09D1E-CBC3-47C8-BC18-784C4B5AE8A8" : null,
                   "D1726FF8-221F-44F2-B88A-168B2D7D9515" : null,
-                  "E3530D44-C27F-439F-ABEA-ECBBBF0EF575" : null
+                  "E3530D44-C27F-439F-ABEA-ECBBBF0EF575" : null,
+                  "EF9A2CBC-204F-44CE-86CA-77498AD0158F" : null
                 },
                 "factory" : null,
                 "runtimeAttributes" : [
@@ -1364,24 +1615,24 @@
                 ]
               },
               "physicsMode" : "grid",
-              "title" : "Box 1",
+              "title" : "Box 2",
               "viewTransform" : {
                 "cameraTransform" : [
-                  -0.9883304238319397,
-                  -1.7136332530753862e-07,
-                  0.15232478082180023,
+                  -0.67128443717956543,
+                  -5.9604644775390625e-08,
+                  -0.741199791431427,
                   0,
-                  0.099291741847991943,
-                  0.75835400819778442,
-                  0.64423632621765137,
+                  -0.15518546104431152,
+                  0.97783643007278442,
+                  0.14054659008979797,
                   0,
-                  -0.11551622301340103,
-                  0.65184295177459717,
-                  -0.74950426816940308,
+                  0.72477227449417114,
+                  0.20936998724937439,
+                  -0.65640628337860107,
                   0,
-                  0.070652633905410767,
-                  4.109748363494873,
-                  -2.6549797058105469,
+                  2.9239866733551025,
+                  1.042614221572876,
+                  2.9205989837646484,
                   1
                 ],
                 "sceneTransform" : [

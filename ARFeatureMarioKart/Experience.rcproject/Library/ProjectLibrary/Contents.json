@@ -13,5 +13,15 @@
     "libraryIdentifier" : "236c9b1cdcb045a6cb9f4f62c2ce5fc2",
     "format" : "audio",
     "displayName" : "short-success-sound-glockenspiel-treasure-video-game-6346.mp3"
+  },
+  {
+    "libraryIdentifier" : "5d47a563c623db9d0510bef04d3ffe1a",
+    "format" : "model",
+    "displayName" : "toy_biplane_idle (1).usdz"
+  },
+  {
+    "libraryIdentifier" : "669d00c9650c7490aaf8155d0a430400",
+    "format" : "model",
+    "displayName" : "earth.usdz"
   }
 ]
