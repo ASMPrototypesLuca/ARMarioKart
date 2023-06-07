@@ -38,5 +38,20 @@
     "libraryIdentifier" : "85c9d5d1993b7337d4746505798a5fef",
     "format" : "model",
     "displayName" : "Star.usdz"
+  },
+  {
+    "libraryIdentifier" : "22a1bd503399cb87fbae953ae227c288",
+    "format" : "model",
+    "displayName" : "Finish_Line.usdz"
+  },
+  {
+    "libraryIdentifier" : "d3f2e72c19bb246eaa1616e3dd45d7e1",
+    "format" : "model",
+    "displayName" : "Finish_Line (2).usdz"
+  },
+  {
+    "libraryIdentifier" : "d1b6abd99d6cda7049acf08a2760d782",
+    "format" : "model",
+    "displayName" : "Trophy_-_Low_poly_-_game_ready.usdz"
   }
 ]
