@@ -898,6 +898,7 @@
                       ]
                     }
                   },
+                  "73649352-7DFE-4B92-B591-DFA1B254AF40" : null,
                   "A35199FC-7C60-40D6-B519-7CAB59BD7071" : null,
                   "AB15F7A1-D8A0-4F91-987E-12D49F0996D7" : null,
                   "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null,
@@ -1037,9 +1038,9 @@
                   0.31102818250656128,
                   0.94197607040405273,
                   0,
-                  0.17020946741104126,
-                  1.656376838684082,
-                  6.9415764808654785,
+                  0.18310409784317017,
+                  1.7372946739196777,
+                  6.9165863990783691,
                   1
                 ],
                 "sceneTransform" : [
@@ -1527,34 +1528,6 @@
                             }
                           ],
                           "__version" : 1
-                        },
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
-                                          "targetScene" : "16002BF6-3219-4D3E-BA3A-453BC7138F5C"
-                                        },
-                                        "name" : {
-                                          "type" : "changeScene"
-                                        }
-                                      },
-                                      "identifier" : "7A55EE33-21E8-465E-84E9-E22C25F71FEC",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "A3EEF5EA-EA4D-49DF-B78C-8073236E6B57",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
                         }
                       ],
                       "color" : [
@@ -1592,6 +1565,896 @@
                     }
                   ],
                   "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:236c9b1cdcb045a6cb9f4f62c2ce5fc2\/short-success-sound-glockenspiel-treasure-video-game-6346.mp3",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "0CBAB15F-20CB-41AC-BB6E-DCE038E52B10"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "51F941B2-9A30-49CE-A7C9-33684351A4FB",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "8DE67119-C900-4C89-8245-B37B1E9E1BA3",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "none",
+                                          "distance" : 1,
+                                          "duration" : 1,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "0CBAB15F-20CB-41AC-BB6E-DCE038E52B10"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "hide"
+                                        }
+                                      },
+                                      "identifier" : "484FB216-E870-4A30-82E0-4CD554106F47",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "7A2BCCC5-4CF9-49D8-9E7E-2CFF5AA16E12",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.56078433990478516,
+                        0.47058823704719543,
+                        0.80392158031463623,
+                        1
+                      ],
+                      "identifier" : "88953F7C-335E-4EF3-8D80-8F9CAAFE4C7C",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "catch Cube 5",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "distance" : 0.40000000596046448,
+                                  "target" : [
+                                    "0CBAB15F-20CB-41AC-BB6E-DCE038E52B10"
+                                  ],
+                                  "type" : 0
+                                },
+                                "name" : "proximity"
+                              },
+                              "identifier" : "6860B98B-1F7B-4E43-9499-18EF5C7871E5",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:236c9b1cdcb045a6cb9f4f62c2ce5fc2\/short-success-sound-glockenspiel-treasure-video-game-6346.mp3",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "D71E4CDE-7A03-4B7C-B649-8EA54EC67C9F"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "3EB6B8D1-EDB0-4B15-A228-09BA3BB2CC9F",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "420BBDC8-27EC-4721-B0DD-9C769B85234C",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "none",
+                                          "distance" : 1,
+                                          "duration" : 1,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "D71E4CDE-7A03-4B7C-B649-8EA54EC67C9F"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "hide"
+                                        }
+                                      },
+                                      "identifier" : "5EDC81B6-5E3E-4184-A608-6142BF4606E6",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "1A3EE2D3-0DD8-44AA-A9A9-2144566AB94F",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.64705884456634521,
+                        0.32156863808631897,
+                        0.76470589637756348,
+                        1
+                      ],
+                      "identifier" : "5C5F3333-28F9-4C8B-9725-830B55FA744F",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "catch Cube 6",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "distance" : 0.40000000596046448,
+                                  "target" : [
+                                    "D71E4CDE-7A03-4B7C-B649-8EA54EC67C9F"
+                                  ],
+                                  "type" : 0
+                                },
+                                "name" : "proximity"
+                              },
+                              "identifier" : "28A042C8-253F-4C27-9DD5-A4CE87785632",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:236c9b1cdcb045a6cb9f4f62c2ce5fc2\/short-success-sound-glockenspiel-treasure-video-game-6346.mp3",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "1D9E789B-6008-4057-83C9-EB2DEB634C16"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "CCAC1434-E616-44D6-B292-E6D25160A596",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "017B64B1-8D2F-44A4-990A-C07F8128A4BE",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "none",
+                                          "distance" : 1,
+                                          "duration" : 1,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "1D9E789B-6008-4057-83C9-EB2DEB634C16"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "hide"
+                                        }
+                                      },
+                                      "identifier" : "F60E104B-F5B8-4A1D-9BDE-080922EB043F",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "0DB3679E-5A00-48D2-B28E-45377552B9A5",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.88235294818878174,
+                        0.48235294222831726,
+                        0.68627452850341797,
+                        1
+                      ],
+                      "identifier" : "A45B019C-E728-4FC9-A337-44DE1127D0B3",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "catch Cube 7",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "distance" : 0.40000000596046448,
+                                  "target" : [
+                                    "1D9E789B-6008-4057-83C9-EB2DEB634C16"
+                                  ],
+                                  "type" : 0
+                                },
+                                "name" : "proximity"
+                              },
+                              "identifier" : "B31F1CCA-110E-4540-8017-EB10F209E5E9",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:236c9b1cdcb045a6cb9f4f62c2ce5fc2\/short-success-sound-glockenspiel-treasure-video-game-6346.mp3",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "60E1FF8E-0DD9-4092-82D4-692DB6F8A2C2"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "0D4629D2-4A8B-435E-88DD-57CB884D5F38",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "FD9EAC4D-FBE5-4A60-9F1B-C95F9A96D96B",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "none",
+                                          "distance" : 1,
+                                          "duration" : 1,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "60E1FF8E-0DD9-4092-82D4-692DB6F8A2C2"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "hide"
+                                        }
+                                      },
+                                      "identifier" : "24E3E8A3-09C6-4EA3-A305-CF8F07886302",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "EE88BF75-BA87-4107-A54B-80B261A7371A",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.49803921580314636,
+                        0.52941179275512695,
+                        0.61960786581039429,
+                        1
+                      ],
+                      "identifier" : "82CD529A-7733-4A5B-9AB2-4C40CC794A9E",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "catch Cube 8",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "distance" : 0.40000000596046448,
+                                  "target" : [
+                                    "60E1FF8E-0DD9-4092-82D4-692DB6F8A2C2"
+                                  ],
+                                  "type" : 0
+                                },
+                                "name" : "proximity"
+                              },
+                              "identifier" : "4A97DF94-AEFC-457B-9D1C-C77B7EDC2DC8",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:236c9b1cdcb045a6cb9f4f62c2ce5fc2\/short-success-sound-glockenspiel-treasure-video-game-6346.mp3",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "A9CFA0E4-81D6-4CAC-B135-C04F9F0FEB0C"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "CB350AE4-4BB5-40D1-AD72-30898F6408F3",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "D0095E15-CCB3-488B-B885-126D7E7D42B1",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "none",
+                                          "distance" : 1,
+                                          "duration" : 1,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "D71E4CDE-7A03-4B7C-B649-8EA54EC67C9F",
+                                            "A9CFA0E4-81D6-4CAC-B135-C04F9F0FEB0C"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "hide"
+                                        }
+                                      },
+                                      "identifier" : "093C44B2-6BCB-4B1D-B383-1FBA82CA691D",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "492B506F-ADFC-431C-915F-A94A63FEDE55",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.49803921580314636,
+                        0.50196081399917603,
+                        0.52549022436141968,
+                        1
+                      ],
+                      "identifier" : "65F6E10E-577A-442B-9235-D801000BE876",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "catch Cube 9",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "distance" : 0.40000000596046448,
+                                  "target" : [
+                                    "A9CFA0E4-81D6-4CAC-B135-C04F9F0FEB0C"
+                                  ],
+                                  "type" : 0
+                                },
+                                "name" : "proximity"
+                              },
+                              "identifier" : "748B8BD5-FB47-4837-9F5E-36B9FDD10A13",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:236c9b1cdcb045a6cb9f4f62c2ce5fc2\/short-success-sound-glockenspiel-treasure-video-game-6346.mp3",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "1874CD88-FC7A-4E51-A418-5A1F02A6AA2E"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "4804B9E0-0C7F-47DC-BA6D-EF51FB4428A8",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "15D8347C-DD01-4B47-927E-F3DA5F9B73E0",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "none",
+                                          "distance" : 1,
+                                          "duration" : 1,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "1874CD88-FC7A-4E51-A418-5A1F02A6AA2E"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "hide"
+                                        }
+                                      },
+                                      "identifier" : "8A778460-D1AF-4817-85CC-B122DD6E87D7",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "B81686F2-A5C3-4145-A178-DA1B50CDFF5E",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.69411766529083252,
+                        0.69019609689712524,
+                        0.63529413938522339,
+                        1
+                      ],
+                      "identifier" : "655E2378-6ED5-4C21-9159-33D43D644124",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "catch Cube 10",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "distance" : 0.40000000596046448,
+                                  "target" : [
+                                    "1874CD88-FC7A-4E51-A418-5A1F02A6AA2E"
+                                  ],
+                                  "type" : 0
+                                },
+                                "name" : "proximity"
+                              },
+                              "identifier" : "E1C6B113-E2A1-485F-A717-9DA5FC61165E",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:236c9b1cdcb045a6cb9f4f62c2ce5fc2\/short-success-sound-glockenspiel-treasure-video-game-6346.mp3",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "D9257D2C-6504-4B23-9558-DBFDF6C46A5A"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "CEDC8E44-7C63-4970-921D-896350A28A61",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "58D86100-14B8-4CC1-A891-A3DCDCDCFBA2",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "none",
+                                          "distance" : 1,
+                                          "duration" : 1,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "D9257D2C-6504-4B23-9558-DBFDF6C46A5A"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "hide"
+                                        }
+                                      },
+                                      "identifier" : "6EF7C104-853F-4480-A9D2-4394CD6C3865",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "3B87D675-E2B8-45BE-8AAE-4B800216868D",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "targetScene" : "16002BF6-3219-4D3E-BA3A-453BC7138F5C"
+                                        },
+                                        "name" : {
+                                          "type" : "changeScene"
+                                        }
+                                      },
+                                      "identifier" : "5CB2DA10-A751-40E5-B896-819B4BD23609",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "1E7B2D74-3608-4B38-9350-69EAB8FEFF44",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.86274510622024536,
+                        0.3333333432674408,
+                        0.41568627953529358,
+                        1
+                      ],
+                      "identifier" : "61E28FF8-EE6F-4681-8DFA-B0DAA0BB3B72",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "catch Cube 11",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "distance" : 0.40000000596046448,
+                                  "target" : [
+                                    "D9257D2C-6504-4B23-9558-DBFDF6C46A5A"
+                                  ],
+                                  "type" : 0
+                                },
+                                "name" : "proximity"
+                              },
+                              "identifier" : "4C5B5758-7339-4EA0-A0DB-B63281064917",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
                 }
               ],
               "gravity" : [
@@ -1605,6 +2468,112 @@
                 "children" : {
                   "1BE2D40B-7938-498B-8A7F-525022145472" : null,
                   "1CCA208D-D54A-4310-A385-878A6B527C2D" : null,
+                  "1F264355-B760-4567-97E3-5CB9C6C6B8C9" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:5c04aae40981bdb7ccb6af10cedbaf16\/Mystery_Block.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "2188091E-B584-40EB-8004-793E97EC9AAB"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "60E1FF8E-0DD9-4092-82D4-692DB6F8A2C2"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        13.002045631408691,
+                        1.2811039686203003,
+                        -12.784603118896484,
+                        1
+                      ]
+                    }
+                  },
                   "4A213441-135C-450E-8EF8-1A4EAB267C1D" : null,
                   "4F1A9FA9-C909-48CC-A154-8D9636F112CA" : null,
                   "5FC0DE3B-665E-4AB0-9C4C-A8CE957F729D" : null,
@@ -1710,14 +2679,228 @@
                         0,
                         0,
                         1.2811051607131958,
-                        -2.3738844394683838,
+                        -2.3762812614440918,
                         1
                       ]
                     }
                   },
                   "7F5F1ADC-E5E4-4EF5-A5B5-FC43B071FFA5" : null,
+                  "74BFA405-5F9C-4F66-9A3B-DAB2538B49B1" : null,
+                  "077FB6EE-F297-44A2-8724-43285CB36734" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:5c04aae40981bdb7ccb6af10cedbaf16\/Mystery_Block.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "CE098C8D-6E4B-4300-86D2-66EA4A9C2D99"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "D9257D2C-6504-4B23-9558-DBFDF6C46A5A"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        12.699036598205566,
+                        1.2959223985671997,
+                        -0.59530669450759888,
+                        1
+                      ]
+                    }
+                  },
+                  "106F6E47-515A-4BB0-9657-49C7840EF4AB" : null,
                   "0144FB2B-7129-4BF7-B9EF-EE1C985C0D11" : null,
                   "632E476F-1E55-4E30-9723-1C51DD2E8B89" : null,
+                  "642CE742-FBE1-4E62-81BF-6529E54ECBB7" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:5c04aae40981bdb7ccb6af10cedbaf16\/Mystery_Block.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "A335A267-3C40-4779-AD40-CE937FB958FA"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "0CBAB15F-20CB-41AC-BB6E-DCE038E52B10"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        7.2712960243225098,
+                        1.2811042070388794,
+                        -9.7776002883911133,
+                        1
+                      ]
+                    }
+                  },
                   "703F31A9-1DAD-4F6C-BEB2-9D9E23AD1255" : null,
                   "1702FAAA-28C9-479A-8DD9-FD8EA37078BA" : null,
                   "012857DE-09AA-4829-9450-991EB13D541D" : {
@@ -1826,8 +3009,326 @@
                       ]
                     }
                   },
+                  "84939C85-C1CC-42B0-B729-762ED624A1EC" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:5c04aae40981bdb7ccb6af10cedbaf16\/Mystery_Block.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "4756785A-7C4D-4E53-AD61-F3BC2F9605F3"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "1874CD88-FC7A-4E51-A418-5A1F02A6AA2E"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        12.801449775695801,
+                        1.2811034917831421,
+                        -3.5055530071258545,
+                        1
+                      ]
+                    }
+                  },
                   "476355D0-3743-4B1A-AD08-A5D28A60ED79" : null,
+                  "43695885-7BBA-4C46-963B-321A56F79A3C" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:5c04aae40981bdb7ccb6af10cedbaf16\/Mystery_Block.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "E31C8285-182C-4025-9E6F-FA7FD61492C9"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "D71E4CDE-7A03-4B7C-B649-8EA54EC67C9F"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        7.2953810691833496,
+                        1.2811049222946167,
+                        -12.982302665710449,
+                        1
+                      ]
+                    }
+                  },
                   "A35F7D76-D6AC-44C2-A689-78450A9A9D0C" : null,
+                  "A54E6A52-D86A-4650-BF48-9D20EE64314D" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:5c04aae40981bdb7ccb6af10cedbaf16\/Mystery_Block.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "24378754-814F-46D3-AF41-61A291CE954A"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "1D9E789B-6008-4057-83C9-EB2DEB634C16"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        10.129223823547363,
+                        1.2811039686203003,
+                        -12.954051971435547,
+                        1
+                      ]
+                    }
+                  },
                   "AB15F7A1-D8A0-4F91-987E-12D49F0996D7" : null,
                   "B72F9687-AEDA-4405-ADD6-5FD7C5858EAE" : {
                     "overrides" : {
@@ -2045,7 +3546,113 @@
                   },
                   "C3846FDD-A282-4CCD-962B-A37D6252C386" : null,
                   "D1726FF8-221F-44F2-B88A-168B2D7D9515" : null,
-                  "E3530D44-C27F-439F-ABEA-ECBBBF0EF575" : null
+                  "E3530D44-C27F-439F-ABEA-ECBBBF0EF575" : null,
+                  "F9D16BF2-5BC6-466A-BAD1-87EC0EEFE629" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:5c04aae40981bdb7ccb6af10cedbaf16\/Mystery_Block.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "6ECE3126-9062-4C4F-84A8-82E12D10E8FD"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "A9CFA0E4-81D6-4CAC-B135-C04F9F0FEB0C"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        12.945940971374512,
+                        1.2811037302017212,
+                        -6.2108583450317383,
+                        1
+                      ]
+                    }
+                  }
                 },
                 "factory" : null,
                 "runtimeAttributes" : [
@@ -2062,21 +3669,21 @@
               "title" : "Box 1",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.98210912942886353,
-                  1.6763804566721774e-08,
-                  0.18831229209899902,
+                  -0.99998468160629272,
+                  3.8184229111948298e-08,
+                  -0.0055343606509268284,
                   0,
-                  0.12471330910921097,
-                  0.74926584959030151,
-                  -0.65042072534561157,
+                  -0.0024307710118591785,
+                  0.89838778972625732,
+                  0.43919628858566284,
                   0,
-                  -0.14109592139720917,
-                  0.66226917505264282,
-                  0.73586094379425049,
+                  0.0049721291288733482,
+                  0.43920311331748962,
+                  -0.89837408065795898,
                   0,
-                  1.4202139377593994,
-                  7.9549589157104492,
-                  5.2914705276489258,
+                  11.060005187988281,
+                  12.596274375915527,
+                  -27.257602691650391,
                   1
                 ],
                 "sceneTransform" : [
@@ -2123,135 +3730,99 @@
                 "children" : {
                   "1BE2D40B-7938-498B-8A7F-525022145472" : null,
                   "1CCA208D-D54A-4310-A385-878A6B527C2D" : null,
+                  "02A8B495-5E4B-4DD5-A01F-7B3BE68BB660" : null,
                   "4A213441-135C-450E-8EF8-1A4EAB267C1D" : null,
                   "4F1A9FA9-C909-48CC-A154-8D9636F112CA" : null,
                   "5E71B9B8-CC17-4034-B55B-317523FCDBB9" : null,
                   "5FC0DE3B-665E-4AB0-9C4C-A8CE957F729D" : null,
                   "6B8F1C18-42BD-45EE-89CE-3B5193F7963B" : null,
+                  "6C6F7BD1-1D0E-4C78-A68F-1DD74D5D3DE7" : null,
                   "7F5F1ADC-E5E4-4EF5-A5B5-FC43B071FFA5" : null,
                   "9EB7B617-62D4-43C1-884C-057EF3C88349" : null,
+                  "23AA0A4B-7ED7-4CC9-A002-731D67536C88" : null,
+                  "59CA772A-4215-4DFE-A9BE-7CBD8D1AD125" : null,
+                  "71A6F032-DFBB-41B5-B3CF-7AF9DF2A8C08" : null,
                   "73DBCDB8-E5DE-450E-9DC0-5F79ACB08297" : null,
                   "0144FB2B-7129-4BF7-B9EF-EE1C985C0D11" : null,
                   "632E476F-1E55-4E30-9723-1C51DD2E8B89" : null,
                   "783AFA46-4355-4331-A21C-A109CD6453B9" : null,
                   "1702FAAA-28C9-479A-8DD9-FD8EA37078BA" : null,
+                  "3733F1BA-7DE5-4C8D-954B-08B92B636270" : null,
                   "476355D0-3743-4B1A-AD08-A5D28A60ED79" : null,
-                  "A35F7D76-D6AC-44C2-A689-78450A9A9D0C" : {
+                  "A35F7D76-D6AC-44C2-A689-78450A9A9D0C" : null,
+                  "A52FE85C-9DF8-4812-A35B-59DD23B38501" : {
                     "overrides" : {
-                      "arguments" : [
-                        [
-                          "boundHeight",
-                          {
-                            "typeName" : "Double",
-                            "value" : 1.5
-                          }
-                        ],
-                        [
-                          "boundWidth",
-                          {
-                            "typeName" : "Double",
-                            "value" : 6
-                          }
-                        ],
-                        [
-                          "depth",
-                          {
-                            "typeName" : "Double",
-                            "value" : 0.22
-                          }
-                        ],
-                        [
-                          "font",
-                          {
-                            "typeName" : "String",
-                            "value" : "Helvetica"
-                          }
-                        ],
-                        [
-                          "hasBackground",
-                          {
-                            "typeName" : "Bool",
-                            "value" : false
-                          }
-                        ],
-                        [
-                          "height",
-                          {
-                            "typeName" : "Double",
-                            "value" : 0.35000000000000003
-                          }
-                        ],
-                        [
-                          "horizontalAlignment",
-                          {
-                            "typeName" : "String",
-                            "value" : "center"
-                          }
-                        ],
-                        [
-                          "material",
-                          {
-                            "typeName" : "String",
-                            "value" : "gold"
-                          }
-                        ],
-                        [
-                          "materialColor",
-                          {
-                            "typeName" : "double4",
-                            "value" : [
-                              1,
-                              1,
-                              1,
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:d3f2e72c19bb246eaa1616e3dd45d7e1\/Finish_Line%20(2).usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "D20F15E2-9A6C-4CC2-8EB3-E7C4128ECFBA"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
+                              0.0099999997764825821,
+                              0,
+                              0,
+                              0,
+                              0,
                               1
                             ]
                           }
-                        ],
-                        [
-                          "oneLine",
-                          {
-                            "typeName" : "Bool",
-                            "value" : false
-                          }
-                        ],
-                        [
-                          "precision",
-                          {
-                            "typeName" : "String",
-                            "value" : "normal"
-                          }
-                        ],
-                        [
-                          "text",
-                          {
-                            "typeName" : "String",
-                            "value" : "1st Place!"
-                          }
-                        ],
-                        [
-                          "verticalAlignment",
-                          {
-                            "typeName" : "String",
-                            "value" : "bottom"
-                          }
-                        ],
-                        [
-                          "verticalPosition",
-                          {
-                            "typeName" : "String",
-                            "value" : "middle"
-                          }
-                        ],
-                        [
-                          "wordWrap",
-                          {
-                            "typeName" : "Bool",
-                            "value" : true
-                          }
-                        ]
-                      ],
+                        }
+                      },
                       "factory" : {
-                        "identifier" : "com.apple.rc.af.CoreAssetFactories.Text",
+                        "identifier" : "com.apple.af.Group",
                         "version" : "0.0"
                       },
                       "runtimeAttributes" : [
@@ -2259,38 +3830,40 @@
                           "RuntimeIdentifier",
                           {
                             "typeName" : "UUID",
-                            "value" : "AC8F58C0-4323-40A9-9019-42241655F7AA"
+                            "value" : "6E38ACD0-BAFD-4A72-9167-02DDE70E0466"
                           }
                         ]
                       ]
                     },
                     "transform" : {
                       "matrix" : [
-                        -1.9319472312927246,
-                        2.917159065418673e-07,
-                        -1.688961788204324e-07,
+                        10.000000953674316,
                         0,
-                        2.916528103469318e-07,
-                        1.931917667388916,
-                        0.00067047157790511847,
                         0,
-                        1.6899420529625786e-07,
-                        0.0006704691331833601,
-                        -1.9319107532501221,
                         0,
-                        -0.27951684594154358,
-                        1.8201007843017578,
-                        7.788355827331543,
+                        0,
+                        10.000000953674316,
+                        0,
+                        0,
+                        0,
+                        0,
+                        10.000000953674316,
+                        0,
+                        11.608850479125977,
+                        0,
+                        4.5286107063293457,
                         1
                       ]
                     }
                   },
                   "AB15F7A1-D8A0-4F91-987E-12D49F0996D7" : null,
                   "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null,
+                  "BD547569-D3AB-414F-A5DD-9A0488798965" : null,
                   "C1D09D1E-CBC3-47C8-BC18-784C4B5AE8A8" : null,
                   "D1726FF8-221F-44F2-B88A-168B2D7D9515" : null,
                   "E3530D44-C27F-439F-ABEA-ECBBBF0EF575" : null,
-                  "EF9A2CBC-204F-44CE-86CA-77498AD0158F" : null
+                  "EF9A2CBC-204F-44CE-86CA-77498AD0158F" : null,
+                  "FD3B4EEA-97F6-4CA7-811D-CE858B343F3C" : null
                 },
                 "factory" : null,
                 "runtimeAttributes" : [
@@ -2307,21 +3880,21 @@
               "title" : "Box 2",
               "viewTransform" : {
                 "cameraTransform" : [
-                  -0.96179020404815674,
-                  -5.2154064178466797e-08,
-                  -0.27378720045089722,
+                  -0.98299461603164673,
+                  -2.0675361156463623e-07,
+                  0.183633953332901,
                   0,
-                  -0.087696373462677002,
-                  0.94731390476226807,
-                  0.30806776881217957,
+                  0.073181807994842529,
+                  0.91715830564498901,
+                  0.39174595475196838,
                   0,
-                  0.25936263799667358,
-                  0.32030653953552246,
-                  -0.91111725568771362,
+                  -0.16842153668403625,
+                  0.39852318167686462,
+                  -0.90156161785125732,
                   0,
-                  -0.0083283782005310059,
-                  1.6204710006713867,
-                  -2.2059507369995117,
+                  9.5519981384277344,
+                  3.3825170993804932,
+                  -1.6895203590393066,
                   1
                 ],
                 "sceneTransform" : [
