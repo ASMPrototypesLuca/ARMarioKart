@@ -7,10 +7,13 @@
 
 import SwiftUI
 import RealityKit
+import Dispatch
 
 struct ContentView: View {
+    @State private var showMessage = true
+    
     var body: some View {
-        ZStack(alignment: .topLeading) {
+        ZStack {
             ARViewContainer().edgesIgnoringSafeArea(.all)
             
             VStack {
@@ -19,13 +22,32 @@ struct ContentView: View {
                         .resizable()
                         .frame(width: 50, height: 50)
                         .padding()
+                    
                     Spacer()
+                    
                     Image("Track")
                         .resizable()
                         .frame(width: 50, height: 50)
                         .padding()
                 }
                 Spacer()
+            }
+            
+            if showMessage {
+                Text("Move your phone to scan the room, placement of objects can take a moment.")
+                    .font(.headline)
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.black.opacity(0.8))
+                    .cornerRadius(10)
+                    .transition(.opacity)
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+                            withAnimation {
+                                showMessage = false
+                            }
+                        }
+                    }
             }
         }
     }
