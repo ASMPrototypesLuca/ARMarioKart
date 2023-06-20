@@ -12,6 +12,7 @@ import Dispatch
 struct ContentView: View {
     @State private var showMessage = true
     @State private var showInfoOverlay = false
+    @State private var showAvatarOverlay = false // New state variable
     
     var body: some View {
         ZStack {
@@ -25,6 +26,9 @@ struct ContentView: View {
                         .padding(.top, 50) // Add top padding
                         .padding(.leading, 16) // Add leading padding
                         .alignmentGuide(.top) { _ in 0 } // Align to top
+                        .onTapGesture { // Show avatar overlay on tap
+                            showAvatarOverlay.toggle()
+                        }
                     
                     Spacer()
                     
@@ -103,6 +107,38 @@ struct ContentView: View {
                                 
                                 Button(action: {
                                     showInfoOverlay = false
+                                }) {
+                                    Text("Close")
+                                        .font(.headline)
+                                        .foregroundColor(.white)
+                                        .padding(.horizontal, 20)
+                                        .padding(.vertical, 10)
+                                        .background(Color.blue)
+                                        .cornerRadius(10)
+                                }
+                            }
+                            .padding()
+                        )
+                }
+                
+                if showAvatarOverlay { // Show avatar overlay when true
+                    Color.black.opacity(0.8)
+                        .edgesIgnoringSafeArea(.all)
+                        .overlay(
+                            VStack {
+                                Text("Your Avatar")
+                                    .font(.title)
+                                    .foregroundColor(.white)
+                                    .padding(.bottom, 20)
+                                
+                                Text("Changing your Avatar will be possible in the future, stay tuned!")
+                                    .font(.body)
+                                    .foregroundColor(.white)
+                                    .multilineTextAlignment(.center)
+                                    .padding(.horizontal, 40)
+                                
+                                Button(action: {
+                                    showAvatarOverlay = false
                                 }) {
                                     Text("Close")
                                         .font(.headline)
