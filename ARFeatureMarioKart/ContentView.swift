@@ -12,7 +12,8 @@ import Dispatch
 struct ContentView: View {
     @State private var showMessage = true
     @State private var showInfoOverlay = false
-    @State private var showAvatarOverlay = false // New state variable
+    @State private var showAvatarOverlay = false
+    @State private var showRouteOverlay = false // New state variable
     
     var body: some View {
         ZStack {
@@ -38,6 +39,9 @@ struct ContentView: View {
                         .padding(.top, 50) // Add top padding
                         .padding(.trailing, 16) // Add trailing padding
                         .alignmentGuide(.top) { _ in 0 } // Align to top
+                        .onTapGesture { // Show route overlay on tap
+                            showRouteOverlay.toggle()
+                        }
                 }
                 Spacer()
             }
@@ -120,8 +124,11 @@ struct ContentView: View {
                             .padding()
                         )
                 }
-                
-                if showAvatarOverlay { // Show avatar overlay when true
+            }
+        )
+        .overlay(
+            Group {
+                if showAvatarOverlay {
                     Color.black.opacity(0.8)
                         .edgesIgnoringSafeArea(.all)
                         .overlay(
@@ -139,6 +146,41 @@ struct ContentView: View {
                                 
                                 Button(action: {
                                     showAvatarOverlay = false
+                                }) {
+                                    Text("Close")
+                                        .font(.headline)
+                                        .foregroundColor(.white)
+                                        .padding(.horizontal, 20)
+                                        .padding(.vertical, 10)
+                                        .background(Color.blue)
+                                        .cornerRadius(10)
+                                }
+                            }
+                            .padding()
+                        )
+                }
+            }
+        )
+        .overlay(
+            Group {
+                if showRouteOverlay {
+                    Color.black.opacity(0.8)
+                        .edgesIgnoringSafeArea(.all)
+                        .overlay(
+                            VStack {
+                                Text("Route Information")
+                                    .font(.title)
+                                    .foregroundColor(.white)
+                                    .padding(.bottom, 20)
+                                
+                                Text("This is the first route available, more routes will be added in the future, stay tuned!")
+                                    .font(.body)
+                                    .foregroundColor(.white)
+                                    .multilineTextAlignment(.center)
+                                    .padding(.horizontal, 40)
+                                
+                                Button(action: {
+                                    showRouteOverlay = false
                                 }) {
                                     Text("Close")
                                         .font(.headline)
@@ -175,4 +217,5 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 #endif
+
 
